@@ -1,0 +1,28 @@
+var read=require('readline-sync');
+var name=read.question('What is your name ');
+console.log('Welcome ' +name);
+var dob = read.question('Enter your date of birth in the format dd-mm-yyyy  ');
+d=dob.slice(0,2);
+dn=parseInt(d);
+m=dob.slice(3,5);
+mn=parseInt(m);
+if(d<31 && m<12){
+// console.log(dob);
+y=dob.slice(6,10);
+// console.log(y);
+n=parseInt(y);
+// console.log(n);
+if (n%400===0){
+  console.log(y+' is a leap year');
+}else if (n%100===0){
+  console.log(y+' is not aleap year');
+}else if(n%4==0){
+  console.log(y +' is a leap year');
+}else{
+   console.log(y+' is not aleap year');
+}
+
+}else{
+  console.log('Enter the valid DOB ');
+  
+}
