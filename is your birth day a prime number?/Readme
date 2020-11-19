@@ -1,0 +1,13 @@
+
+create a CLI app to check whether user's birthday is a prime number.
+
+Ask user her name
+Ask her Date of Birth
+This time ask only DD/MM and don't take year
+Calculate and show her whether it's a prime number or not.
+
+
+
+You can play with this by visiting the below link in the browser
+
+https://repl.it/@veereshbv04/is-your-birthday-date-is-prime-number?embed=1&output=1#index.js
